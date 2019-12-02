@@ -33,4 +33,20 @@ module.exports = {
       url: 'mailto:anubhav.srivastava00@gmail.com',
     },
   ],
+  projects: [
+    {
+      id: 1,
+      name: "個人健保資料網路服務作業",
+      issuu: "https://e.issuu.com/embed.html?d=20191018-3&pageLayout=singlePage&u=pdis.tw",
+      current: "https://eservice.nhi.gov.tw/Personal1/System/mLogin.aspx",
+      prototype: "https://eservice.nhi.gov.tw/Personal1/System/mLogin.aspx",
+    },
+    {
+      id: 2,
+      name: "勞保個人網路申報及查詢作業",
+      issuu: "https://e.issuu.com/embed.html?d=20191018-3&pageLayout=singlePage&u=pdis.tw",
+      current: "https://edesk.bli.gov.tw/na/",
+      prototype: "https://eservice.nhi.gov.tw/Personal1/System/mLogin.aspx",
+    },
+  ],
 };

@@ -10,28 +10,27 @@ import pic1 from '../assets/images/pic01.jpg';
 import pic2 from '../assets/images/pic02.jpg';
 import pic3 from '../assets/images/pic03.jpg';
 
+import Project from '../components/Project'
+
 const IndexPage = () => (
   <Layout>
     <Header />
-
     <div id="main">
       <header className="major container medium">
         <h2>
           專案成果
         </h2>
       </header>
-
-      <div className="box alt container">
+      <Project />
+     {/*  <div className="box alt container">
         <section className="feature left">
-          <a href="/#" className="image icon fa-signal">
-            <img src={pic1} alt="" />
-          </a>
+          <iframe className="image" allowfullscreen allow="fullscreen" src="//e.issuu.com/embed.html?d=20191018-3&pageLayout=singlePage&u=pdis.tw"></iframe>
           <div className="content">
-            <h3>The First Thing</h3>
+            <h3>個人健保資料網路服務作業</h3>
             <p>
-              Vitae natoque dictum etiam semper magnis enim feugiat amet
-              curabitur tempor orci penatibus. Tellus erat mauris ipsum
-              fermentum etiam vivamus eget. Nunc nibh morbi quis fusce lacus.
+              <a href="https://eservice.nhi.gov.tw/Personal1/System/mLogin.aspx" target="_blank">現行網站</a>
+              <br/>
+              <a href="https://eservice.nhi.gov.tw/Personal1/System/mLogin.aspx" target="_blank">Prototype</a>
             </p>
           </div>
         </section>
@@ -61,7 +60,7 @@ const IndexPage = () => (
             </p>
           </div>
         </section>
-      </div>
+      </div> */}
 
       <footer className="major container medium">
         <h3>Get shady with this starter</h3>
