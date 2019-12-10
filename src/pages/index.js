@@ -6,9 +6,9 @@ import { Link } from 'gatsby';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 
-import pic1 from '../assets/images/pic01.jpg';
+/* import pic1 from '../assets/images/pic01.jpg';
 import pic2 from '../assets/images/pic02.jpg';
-import pic3 from '../assets/images/pic03.jpg';
+import pic3 from '../assets/images/pic03.jpg'; */
 
 import Project from '../components/Project'
 
@@ -62,7 +62,7 @@ const IndexPage = () => (
         </section>
       </div> */}
 
-      <footer className="major container medium">
+{/*       <footer className="major container medium">
         <h3>Get shady with this starter</h3>
         <p>
           There is also elements page in this template. Click below button to
@@ -75,9 +75,9 @@ const IndexPage = () => (
             </Link>
           </li>
         </ul>
-      </footer>
+      </footer> */}
     </div>
-    <Footer />
+    {/* <Footer /> */}
   </Layout>
 );
 

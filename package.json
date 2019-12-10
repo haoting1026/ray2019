@@ -1,14 +1,14 @@
 {
-  "name": "gatsby-starter-directive",
+  "name": "Ray2019",
   "version": "0.0.1",
-  "description": "Gatsby.js V2 starter template based on Directive by HTML5 UP",
+  "description": "Ray2019",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/anubhavsrivastava/gatsby-starter-directive.git"
+    "url": "git+https://github.com/PDIS/ray2019.git"
   },
   "author": {
-    "name": "Anubhav Srivastava",
-    "email": "anubhav.srivastava00@gmail.com"
+    "name": "PDIS",
+    "email": ""
   },
   "dependencies": {
     "gatsby": "^2.4.3",
@@ -39,13 +39,14 @@
     "rimraf": "^2.6.3"
   },
   "keywords": [
-    "gatsby",
-    "gatsby-starter",
-    "gatsby-starter-directive"
+    "RAY",
+    "RAY2019",
+    "RESCUE ACTON BY YOUTH",
+    "青年體檢政府網站計畫"
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/anubhavsrivastava/gatsby-starter-directive/issues"
+    "url": "https://github.com/PDIS/ray2019/issues"
   },
-  "homepage": "https://github.com/anubhavsrivastava/gatsby-starter-directive#readme"
+  "homepage": "https://github.com/PDIS/ray2019"
 }

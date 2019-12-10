@@ -8,13 +8,13 @@ export default function Project() {
       if (project.id % 2 !== 0) {
         return(
           <section className="feature left">
-            <iframe className="image" allowfullscreen allow="fullscreen" src={project.issuu}></iframe>
+            <iframe title={project.name} className="image" allowFullScreen allow="fullscreen" src={project.issuu}></iframe>
             <div className="content">
               <h3>{project.name}</h3>
               <p>
-                <a href={project.current} target="_blank">現行網站</a>
+                <a href={project.current} target="_blank" rel="noopener noreferrer">現行網站</a>
                 <br/>
-                <a href={project.prototype} target="_blank">Prototype</a>
+                <a href={project.prototype} target="_blank" rel="noopener noreferrer">Prototype</a>
               </p>
             </div>
           </section>
@@ -22,13 +22,13 @@ export default function Project() {
       } else {
         return(
           <section className="feature right">
-            <iframe className="image" allowfullscreen allow="fullscreen" src={project.issuu}></iframe>
+            <iframe title={project.name} className="image" allowFullScreen allow="fullscreen" src={project.issuu}></iframe>
             <div className="content">
               <h3>{project.name}</h3>
               <p>
-                <a href={project.current} target="_blank">現行網站</a>
+                <a href={project.current} target="_blank" rel="noopener noreferrer">現行網站</a>
                 <br/>
-                <a href={project.prototype} target="_blank">Prototype</a>
+                <a href={project.prototype} target="_blank" rel="noopener noreferrer">Prototype</a>
               </p>
             </div>
           </section>
