@@ -14,7 +14,7 @@ export default function Project() {
               <p>
                 <a href={project.current} target="_blank" rel="noopener noreferrer">現行網站</a>
                 <br/>
-                <a href={project.prototype} target="_blank" rel="noopener noreferrer">Prototype</a>
+                <a href={project.prototype} target="_blank" rel="noopener noreferrer">設計雛型</a>
               </p>
             </div>
           </section>
@@ -28,7 +28,7 @@ export default function Project() {
               <p>
                 <a href={project.current} target="_blank" rel="noopener noreferrer">現行網站</a>
                 <br/>
-                <a href={project.prototype} target="_blank" rel="noopener noreferrer">Prototype</a>
+                <a href={project.prototype} target="_blank" rel="noopener noreferrer">設計雛型</a>
               </p>
             </div>
           </section>

@@ -938,7 +938,7 @@
 
 	#header {
 		background-attachment:		scroll,							scroll,					fixed;
-		background-image:			url('../images/top-3200.svg'),		url('../images/overlay.png'),		url('https://ray.pdis.nat.gov.tw/img/header_min.jpg');
+		background-image:			url('../images/top-3200.svg'),		url('../images/overlay.png'),		url('../images/background.png');
 		background-position:		bottom center,					top left,				center center;
 		background-repeat:			repeat-x,						repeat,					no-repeat;
 		background-size:			3200px 460px,					auto,					cover;
@@ -1172,7 +1172,7 @@
 			}
 
 			h2 {
-				font-size: 1.5em;
+				font-size: 2em;
 			}
 
 			h3 {
@@ -1195,7 +1195,7 @@
 				padding: 8em 0 16em 0;
 
 				h1 {
-					font-size: 2.25em;
+					font-size: 3em;
 				}
 
 				p {
