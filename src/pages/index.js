@@ -1,12 +1,8 @@
 import React from 'react';
 
 import Layout from '../components/Layout';
-
-import { Link } from 'gatsby';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
-import pic from '../assets/images/final.jpg';
-
 import Project from '../components/Project'
 
 const IndexPage = () => (
@@ -29,7 +25,7 @@ const IndexPage = () => (
       <Project />
       <footer className="major container medium">
         <h2>計劃結束</h2>
-        <img src={pic} width={"100%"}></img>
+        <img src='https://github.com/PDIS/ray2019/blob/master/src/assets/images/final.jpg?raw=true' width={"100%"}></img>
       </footer>
     </div>
     {<Footer />}

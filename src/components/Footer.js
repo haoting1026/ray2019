@@ -1,5 +1,4 @@
 import React from 'react';
-import ContactForm from './ContactForm';
 import config from '../../config';
 export default function Footer() {
   return (
