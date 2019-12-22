@@ -4,6 +4,7 @@ module.exports = {
   pathPrefix: config.pathPrefix,
   siteMetadata: {
     title: config.siteTitle,
+    siteUrl: 'https://ray2019.pdis.tw/'
   },
   plugins: [
     'gatsby-plugin-react-helmet',
@@ -21,5 +22,6 @@ module.exports = {
     },
     'gatsby-plugin-sass',
     'gatsby-plugin-offline',
+    'gatsby-plugin-cname'
   ],
 };
