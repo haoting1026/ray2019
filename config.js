@@ -44,7 +44,7 @@ module.exports = {
       name: "國立故宮博物院網路線上報名系統",
       issuu: "//e.issuu.com/embed.html?d=___________________7_30_.pptx&pageLayout=singlePage&hideIssuuLogo=true&u=pdis.tw",
       current: "https://signup.npm.edu.tw/",
-      prototype: "https://projects.invisionapp.com/share/QJT21UP27R5#/screens/374674482_npm_Home",
+      prototype: "https://invis.io/QJT21UP27R5",
     },
     {
       id: 6,
