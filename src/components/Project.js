@@ -7,8 +7,8 @@ export default function Project() {
     {config.projects.map( project => {
       if (project.id % 2 !== 0) {
         return(
-          <section className="feature left">
-            <iframe title={project.name} className="image" allowFullScreen allow="fullscreen" src={project.issuu}></iframe>
+          <section className="feature left" key={project.current}>
+            <iframe title={project.name} className="image" allow="fullscreen" allowFullScreen src={project.issuu}></iframe>
             <div className="content">
               <h3>{project.name}</h3>
               <p>
@@ -21,8 +21,8 @@ export default function Project() {
         )
       } else {
         return(
-          <section className="feature right">
-            <iframe title={project.name} className="image" allowFullScreen allow="fullscreen" src={project.issuu}></iframe>
+          <section className="feature right"  key={project.current}>
+            <iframe title={project.name} className="image" allow="fullscreen" allowFullScreen src={project.issuu}></iframe>
             <div className="content">
               <h3>{project.name}</h3>
               <p>

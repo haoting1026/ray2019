@@ -9,7 +9,7 @@ module.exports = {
   manifestIcon: 'src/assets/img/website-icon.png',
   pathPrefix: `/gatsby-starter-directive/`, // This path is subpath of your hosting https://domain/portfolio
   heading: 'RESCUE ACTON BY YOUTH',
-  subHeading: '青年體檢政府網站計畫',
+  subHeading: '青年學生體檢政府網站計畫',
   projects: [
     {
       id: 1,
@@ -57,8 +57,8 @@ module.exports = {
       id: 7,
       name: "臺灣登山整合申辦系統",
       issuu: "//e.issuu.com/embed.html?d=_____final_presentation&pageLayout=singlePage&hideIssuuLogo=true&u=pdis.tw",
-      current: "https://nv2.npa.gov.tw/NM103-604Client/",
-      prototype: "https://hike.taiwan.gov.tw",
+      current: "https://mountain.cpami.gov.tw/Index.aspx",
+      prototype: "https://xd.adobe.com/view/d99a87d9-9e9d-45bb-6bc7-e72798977083-afab/?fullscreen",
     },
     {
       id: 8,
@@ -99,7 +99,7 @@ module.exports = {
       id: 13,
       name: "龜山島登島線上申請系統",
       issuu: "//e.issuu.com/embed.html?d=ray_3.0______________.pptx&pageLayout=singlePage&hideIssuuLogo=true&u=pdis.tw",
-      current: "https://www.necoast-nsa.gov.tw/coast/order.aspx",
+      current: "https://www.necoast-nsa.gov.tw/Coast/",
       prototype: "https://xd.adobe.com/spec/ec67b728-7b99-44dd-5e5f-6b5402cde49a-9a56/screen/cd9b5cee-ef88-4533-992e-ea336fc2e4fb/Web-1920-18/",
     },
     {

@@ -13,7 +13,7 @@ const IndexPage = () => (
         <h2>
           計劃源起
         </h2>
-        <p style={{'text-align': 'left', 'text-transform': 'none',}}>
+        <p style={{'textAlign': 'left', 'textTransform': 'none',}}>
           2019年，我們以「協助優化政府網站數位服務」為計畫目的，招募具UI（User Interface）使用者介面或UX（User Experience）使用者體驗相關專長或實務經驗的青年學生，檢核服務後提供改善後的數位服務模型，供各網站主管機關和社會大眾參考。
         </p> 
       </header>
@@ -25,7 +25,7 @@ const IndexPage = () => (
       <Project />
       <footer className="major container medium">
         <h2>計劃結束</h2>
-        <img src='https://github.com/PDIS/ray2019/blob/master/src/assets/images/final.jpg?raw=true' width={"100%"}></img>
+        <img src='https://github.com/PDIS/ray2019/blob/master/src/assets/images/final.jpg?raw=true' alt='' width={"100%"}></img>
       </footer>
     </div>
     {<Footer />}
