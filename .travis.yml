@@ -4,13 +4,12 @@ before_script:
 node_js:
   - 10
 
-cleanup: false
-keep_history: true
-
 script:
   - npm run build
 
 deploy:
+  cleanup: false
+  keep_history: true
   provider: pages
   github_token: $GITHUB_TOKEN
   local_dir: public
