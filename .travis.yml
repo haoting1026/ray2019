@@ -4,13 +4,14 @@ before_script:
 node_js:
   - 10
 
+cleanup: false
+keep_history: true
+
 script:
   - npm run build
 
 deploy:
   provider: pages
-  cleanup: false
-  keep_history: true
   github_token: $GITHUB_TOKEN
   local_dir: ${TRAVIS_BUILD_DIR}/public
   on:
