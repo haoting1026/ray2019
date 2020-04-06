@@ -41,7 +41,7 @@ const IndexPage = () => (
       </header>
       <Project />
       <footer className="major container medium">
-        <h2>計劃結束</h2>
+        <h2>計畫結束</h2>
         <img src='https://github.com/PDIS/ray2019/blob/master/src/assets/images/final.jpg?raw=true' alt='' width={"100%"}></img>
       </footer>
     </div>
